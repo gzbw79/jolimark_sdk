@@ -7,7 +7,7 @@ namespace Gzlbw\JolimarkSdk;
 
 use GuzzleHttp\Client;
 
-class handler
+class Handler
 {
     /**
      * @var string
@@ -207,7 +207,7 @@ class handler
     }
 
     /**
-     * 查询打印机状态
+     * 查询打印机基础信息
      * @param string $device_id
      * @return mixed
      */
@@ -249,6 +249,7 @@ class handler
     }
 
     /**
+     * 打印映美规范HTML页面-传HTML代码
      * @param string $cus_orderid 客户系统订单流水号
      * @param string $device_ids 打印机编码串
      * @param string $bill_content 要打印的html源代码
