@@ -2,8 +2,7 @@
 
 # 说明
 本SDK仅个人项目使用不保证能适用所有项目
-映美云打印官方开放平台接口文档
-- [Documentation](http://open.jolimark.com/doc/)
+- [映美云打印官方开放平台接口文档](http://open.jolimark.com/doc/)
 
 ## 安装
 > composer require gzlbw/jolimark_sdk 
