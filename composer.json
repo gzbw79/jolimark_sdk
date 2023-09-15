@@ -1,0 +1,21 @@
+{
+    "name": "gzlbw/jolimark_sdk",
+    "description": "映美云打印SDK",
+    "type": "libaray",
+    "require": {
+        "php": "7.2.*",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gzlbw\\JolimarkSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Li Bo Wen",
+            "email": "gzbw79@163.com"
+        }
+    ]
+}
