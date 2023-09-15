@@ -95,7 +95,7 @@ class Handler
     {
         $this->app_id = $app_id;
         $this->app_key = $app_key;
-        $this->temp_path = __DIR__ . '/temp';
+        $this->temp_path = __DIR__ . '/../temp';
 
         if (!file_exists($this->temp_path)) {
             mkdir($this->temp_path);
