@@ -5,7 +5,7 @@
 - [映美云打印官方开放平台接口文档](http://open.jolimark.com/doc/)
 
 ## 安装
-> composer require gzlbw/jolimark_sdk 
+> composer require gzlbw/jolimark_sdk @dev
 
 ## 使用
 ```php
