@@ -3,10 +3,11 @@
  * 映美云打印SDK
  * 官方文档地址：http://open.jolimark.com/doc/
  */
+namespace Gzlbw\JolimarkSdk;
 
 use GuzzleHttp\Client;
 
-class PrintJoliMark
+class handler
 {
     /**
      * @var string
